@@ -2,6 +2,7 @@
 
 :root{
     --light-pink: rgba(255, 179, 201, .2);
+    --light-pink-2: rgba(248, 231, 214, .26);
     --dark-blue: #1A242D;
     --para-color: #48545C;
 }

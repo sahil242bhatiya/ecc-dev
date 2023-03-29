@@ -18,9 +18,10 @@ export default {
 </script>
 
 <style scoped>
-.container-fluid{
-  background-image: url("../../assets/beauty-section-bg.jpg") !important;
-  background-repeat: repeat;
-  min-height: 500px;
+section{
+  padding-block: 150px;
+  background: url("../../assets/beauty-section-bg.png") repeat !important;
+  background-size: 100% !important;
+  min-height: 500px !important;
 }
 </style>
