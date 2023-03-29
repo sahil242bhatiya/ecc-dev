@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 .img-fluid {
-  max-height: 90vh;
+  max-height: 85vh;
 }
 
 .large-heading {

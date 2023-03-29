@@ -1,16 +1,16 @@
 <template>
   <div class="row justify-content-md-start justify-content-center align-items-center gap-3">
     <a class="social-media-icon">
-      <facebook-icon/>
+      <facebook-icon class="hover-mouse"/>
     </a>
     <a class="social-media-icon">
-      <twitter-icon/>
+      <twitter-icon class="hover-mouse"/>
     </a>
     <a class="social-media-icon">
-      <instagram-icon/>
+      <instagram-icon class="hover-mouse"/>
     </a>
     <a class="social-media-icon">
-      <pinterest-icon />
+      <pinterest-icon class="hover-mouse"/>
     </a>
   </div>
 </template>
