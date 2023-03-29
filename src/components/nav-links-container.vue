@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-lg-5 main-menu row align-items-center">
+  <div class="main-menu row align-items-center">
     <div class="links-container">
       <ul>
         <li>Home</li>
@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .links-container{
-  width: 70%;
+  width: 65%;
   padding: 0 !important;
 }
 .input-container{
@@ -47,6 +47,8 @@ export default {
 }
 .main-menu{
   height: 80px;
+  justify-content: space-between;
+  padding-inline: 10px;
 }
 .search-input{
   margin-right: 0;

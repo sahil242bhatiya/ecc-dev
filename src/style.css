@@ -40,3 +40,9 @@
 .para-color{
     color: var(--para-color);
 }
+
+.max-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+}

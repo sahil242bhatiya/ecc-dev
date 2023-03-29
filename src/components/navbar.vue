@@ -1,21 +1,25 @@
 <template>
-  <nav>
-    <div class="mx-lg-5 border-bottom upper-container">
-      <div class="row justify-content-lg-between align-items-center">
-        <div class="col-1">
-          <hamburger-icon class="hamburger-icon"/>
-        </div>
-        <div class="col-2">
-          <company-logo class="logo"/>
-        </div>
-        <div class="col-2">
-          <button class="pink-button request-btn ff-urbanist">
-            Request Sample
-          </button>
+  <nav class="container-fluid px-lg-5">
+    <div class="max-container">
+      <div class="border-bottom container-fluid upper-container">
+        <div class="row justify-content-lg-between align-items-center">
+          <div class="col-1">
+            <hamburger-icon class="hamburger-icon"/>
+          </div>
+          <div class="col-2">
+            <company-logo class="logo"/>
+          </div>
+          <div class="col-2">
+            <button class="pink-button request-btn ff-urbanist">
+              Request Sample
+            </button>
+          </div>
         </div>
       </div>
     </div>
-    <nav-links-container />
+    <div class="max-container">
+      <nav-links-container/>
+    </div>
   </nav>
 </template>
 
@@ -31,30 +35,34 @@ export default {
 </script>
 
 <style scoped>
-nav{
+nav {
   position: relative;
   top: 0;
   background-color: #fff;
 }
-.logo{
+
+.logo {
   width: 351px;
   height: 90px;
 }
-.hamburger-icon{
+
+.hamburger-icon {
   width: 24px;
   height: 24px;
 }
-.request-btn{
+
+.request-btn {
   padding: 14px 30px;
   border-radius: 36px;
 }
 
-.upper-container{
+.upper-container {
   padding-top: 12px;
   padding-bottom: 28px;
+  padding-inline: 0 !important;
 }
 
-.border-bottom{
+.border-bottom {
   border-bottom: 1px solid #272727 !important;
 }
 </style>

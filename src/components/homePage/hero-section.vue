@@ -1,8 +1,10 @@
 <template>
   <section class="container-fluid px-lg-5">
-    <div class="mx-xl-5 row align-items-end h-100">
-      <div class="col-lg-9 col-xl-7 col-xxl-5">
-        <heading-main class="heading" text="Like Humans, each brand is beautiful in its own way"/>
+    <div class="max-container">
+      <div class="mx-xl-5 row align-items-end h-100">
+        <div class="col-lg-9 col-xl-7 col-xxl-5">
+          <heading-main class="heading" text="Like Humans, each brand is beautiful in its own way"/>
+        </div>
       </div>
     </div>
   </section>

@@ -33,6 +33,7 @@ export default {
   border: none;
   z-index: 3;
   justify-content: space-between;
+  max-width: 350px;
 }
 .fs-5{
   margin-top: 6px;

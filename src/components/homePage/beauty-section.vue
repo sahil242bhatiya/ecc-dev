@@ -1,8 +1,10 @@
 <template>
-  <section class="container-fluid">
-    <div class="row mx-lg-5">
-      <div class="col-10">
-        <large-bold-heading text="We act to shape the future of beauty, leveraging science & technology" />
+  <section class="container-fluid px-lg-5">
+    <div class="max-container">
+      <div class="row">
+        <div class="col-10">
+          <large-bold-heading text="We act to shape the future of beauty, leveraging science & technology" />
+        </div>
       </div>
     </div>
   </section>
