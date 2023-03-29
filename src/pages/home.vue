@@ -3,6 +3,7 @@
     <hero-section />
     <our-service class="service" />
     <beauty-section class="beauty" />
+    <about-section />
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import HeroSection from "../components/homePage/hero-section.vue";
 import OurService from "../components/homePage/our-service.vue";
 import BeautySection from "../components/homePage/beauty-section.vue";
+import AboutSection from "../components/homePage/about-section.vue";
 
 export default {
   name: "home",
-  components: {BeautySection, OurService, HeroSection}
+  components: {AboutSection, BeautySection, OurService, HeroSection}
 }
 </script>
 

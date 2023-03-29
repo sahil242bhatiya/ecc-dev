@@ -2,7 +2,7 @@
   <section class="container-fluid">
     <div class="row align-items-center">
       <div class="ps-lg-5 col-lg-4 col-xl-5">
-        <large-bold-heading class="ms-lg-5" text="We are creators of beauty since forever"/>
+        <large-bold-heading text="We are creators of beauty since forever"/>
       </div>
       <div class="col-lg-8 col-xl-7 custom-bg">
         <heading-main text="Our Services"/>

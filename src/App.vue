@@ -1,7 +1,6 @@
 <template>
   <navbar/>
   <home />
-  <special-heading text="About" />
   <Footer />
 </template>
 
