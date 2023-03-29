@@ -43,6 +43,7 @@
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <h6 class="links-heading fw-bold mb-4">Get It Touch</h6>
+          <social-media-footer />
           <a class="text-reset">
             Info@ecc-hub.com
           </a>
@@ -60,8 +61,11 @@
 </template>
 
 <script>
+import SocialMediaFooter from "./social-media-footer.vue";
+
 export default {
-  name: "footer"
+  name: "footer",
+  components: {SocialMediaFooter}
 }
 </script>
 

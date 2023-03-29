@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 nav{
-  position: sticky;
+  position: relative;
   top: 0;
   background-color: #fff;
 }
