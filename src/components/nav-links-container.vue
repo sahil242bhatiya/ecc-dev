@@ -51,4 +51,10 @@ export default {
 .search-input{
   margin-right: 0;
 }
+
+@media (max-width: 1024px) {
+  .main-menu{
+    display: none;
+  }
+}
 </style>

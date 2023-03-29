@@ -1,5 +1,5 @@
 <template>
-  <div class="row justify-content-start align-items-center gap-3">
+  <div class="row justify-content-md-start justify-content-center align-items-center gap-3">
     <a class="social-media-icon">
       <facebook-icon/>
     </a>
