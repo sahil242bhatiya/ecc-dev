@@ -39,6 +39,7 @@ div{
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 </style>

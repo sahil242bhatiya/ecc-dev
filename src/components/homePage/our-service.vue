@@ -30,7 +30,8 @@ export default {
 <style scoped>
 .custom-bg{
   position: relative;
-  min-height: 95vh;
+  height: 800px;
+  max-height: 95vh;
   padding-top: 70px;
   padding-bottom: 100px;
 }
