@@ -4,6 +4,7 @@
     <our-service class="service" />
     <beauty-section class="beauty" />
     <about-section />
+    <process-section />
   </div>
 </template>
 
@@ -12,10 +13,11 @@ import HeroSection from "../components/homePage/hero-section.vue";
 import OurService from "../components/homePage/our-service.vue";
 import BeautySection from "../components/homePage/beauty-section.vue";
 import AboutSection from "../components/homePage/about-section.vue";
+import ProcessSection from "../components/homePage/process-section.vue";
 
 export default {
   name: "home",
-  components: {AboutSection, BeautySection, OurService, HeroSection}
+  components: {ProcessSection, AboutSection, BeautySection, OurService, HeroSection}
 }
 </script>
 
