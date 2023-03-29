@@ -26,7 +26,7 @@ export default {
 
       /* get hovered element */
       const hoveredElement = document.elementFromPoint(e.clientX, e.clientY);
-      if (hoveredElement.tagName === "BUTTON" || hoveredElement.tagName === "H2" || hoveredElement.tagName === "H1" || hoveredElement.tagName === "INPUT" || hoveredElement.tagName === "A"  || hoveredElement.classList.contains("hover-mouse")) {
+      if (hoveredElement.tagName === "BUTTON" || hoveredElement.tagName === "H2" || hoveredElement.tagName === "H6" || hoveredElement.tagName === "H1" || hoveredElement.tagName === "INPUT" || hoveredElement.tagName === "A"  || hoveredElement.classList.contains("hover-mouse")) {
         mouse.classList.add("link-grow");
       } else {
         mouse.classList.remove("link-grow");

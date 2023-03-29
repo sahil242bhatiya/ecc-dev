@@ -92,11 +92,43 @@ footer{
 }
 
 .text-reset {
+  position: relative;
   display: block;
   font-size: 16px !important;
-  text-decoration: none;
   color: #48545C !important;
   margin-bottom: 28px !important;
-  cursor: pointer;
 }
+
+a.text-reset{
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+a.text-reset::after{
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #1A242D;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: scale(0) translateY(-50%);
+  transform-origin: right;
+  transition: all 0.3s ease-in-out;
+  opacity: .5;
+}
+
+a.text-reset:hover{
+  padding-left: 14px;
+  font-weight: 700;
+}
+
+a.text-reset:hover::after{
+  transform: scale(1) translateY(-50%);
+  transform-origin: left;
+}
+
+
 </style>
