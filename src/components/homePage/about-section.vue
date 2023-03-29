@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid px-lg-5">
-    <div class="row">
+    <div class="row justify-content-between">
       <div class="col-12">
         <special-heading text="About" class="section-heading"/>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-6">
         <large-bold-heading class="fs-3" text="WE SEEK TO OPTIMISE THE SYNERGY BETWEEN GOOD AESTHETICS, STRUCTURE AND ENVIRONMENTAL MANUFACTURING"/>
         <img src="../../assets/medicine.jpg" alt="medicine" class="img-fluid left-image"/>
         <basic-paragraph text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
@@ -33,7 +33,7 @@ export default {
   margin-bottom: 42px;
 }
 .left-image{
-  margin-top: 53px;
+  margin-top: 46px;
   margin-bottom: 53px;
 }
 .right-image{

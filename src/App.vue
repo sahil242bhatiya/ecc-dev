@@ -11,7 +11,10 @@ import Footer from "./components/footer.vue";
 import SpecialHeading from "./components/headings/special-heading.vue";
 export default {
   name: "App",
-  components: {SpecialHeading, Footer, Home, Navbar}
+  components: {SpecialHeading, Footer, Home, Navbar},
+  mounted() {
+    document.addEventListener("contextmenu", (e) => e.preventDefault());
+  }
 }
 
 </script>
