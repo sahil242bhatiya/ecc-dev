@@ -11,6 +11,10 @@
             <basic-paragraph text="360 solutions that helped shape the beauty industry in the MENA region since 1985"/>
           </div>
         </div>
+        <div class="row custom-gap">
+          <service-card />
+          <service-card />
+        </div>
       </div>
     </div>
   </section>
@@ -20,18 +24,18 @@
 import LargeBoldHeading from "../headings/large-bold-heading.vue";
 import HeadingMain from "../headings/heading-main.vue";
 import BasicParagraph from "../paragraphs/basic-paragraph.vue";
+import ServiceCard from "../cards/service-card.vue";
 
 export default {
   name: "our-service",
-  components: {BasicParagraph, HeadingMain, LargeBoldHeading}
+  components: {ServiceCard, BasicParagraph, HeadingMain, LargeBoldHeading}
 }
 </script>
 
 <style scoped>
 .custom-bg{
   position: relative;
-  height: 800px;
-  max-height: 95vh;
+  height: 830px;
   padding-top: 70px;
   padding-bottom: 100px;
 }
@@ -43,5 +47,8 @@ export default {
   right: 0;
   width: 50%;
   height: 100%;
+}
+.custom-gap{
+  gap: 30px;
 }
 </style>
