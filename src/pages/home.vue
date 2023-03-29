@@ -4,7 +4,8 @@
     <our-service class="service" />
     <beauty-section class="beauty" />
     <about-section />
-    <process-section />
+    <process-section class="process" />
+    <process-2-section />
   </div>
 </template>
 
@@ -14,10 +15,11 @@ import OurService from "../components/homePage/our-service.vue";
 import BeautySection from "../components/homePage/beauty-section.vue";
 import AboutSection from "../components/homePage/about-section.vue";
 import ProcessSection from "../components/homePage/process-section.vue";
+import Process2Section from "../components/homePage/process-2-section.vue";
 
 export default {
   name: "home",
-  components: {ProcessSection, AboutSection, BeautySection, OurService, HeroSection}
+  components: {Process2Section, ProcessSection, AboutSection, BeautySection, OurService, HeroSection}
 }
 </script>
 
@@ -28,5 +30,8 @@ export default {
 }
 .beauty{
   margin-bottom: 351px;
+}
+.process{
+  margin-bottom: 185px;
 }
 </style>

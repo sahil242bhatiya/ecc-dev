@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid px-lg-5">
+  <section class="container-fluid px-lg-5">
     <div class="row">
       <div class="col-12">
         <special-heading text="Process" class="section-heading"/>
@@ -18,7 +18,7 @@
         <process-card text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta phasellus tempus, malesuada massa. Tortor mattis a lectus egestas eget donec quis ligula eget. In habitant risus nisi, venenatis. " heading="Targeting" />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
