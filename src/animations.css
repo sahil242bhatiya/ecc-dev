@@ -1,0 +1,35 @@
+.page-fade-in{
+    animation: page-fade-in 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.page-fade-out{
+    animation: page-fade-out 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes page-fade-in {
+    0% {
+        z-index: -1;
+        opacity: 0;
+        filter: blur(50px);
+    }
+    100% {
+        z-index: 1;
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes page-fade-out {
+    0% {
+        z-index: 1;
+        opacity: 1;
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(50px);
+        opacity: 0;
+        z-index: -1;
+    }
+}
