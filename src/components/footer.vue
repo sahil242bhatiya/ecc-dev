@@ -26,20 +26,20 @@
             <h6 class="links-heading fw-bold mb-4">
               Navigate
             </h6>
-            <a href="#!" class="text-reset">Home</a>
-            <a href="#!" class="text-reset">Services</a>
-            <a href="#!" class="text-reset">News</a>
-            <a href="#!" class="text-reset">Portfolio</a>
+            <router-link to="/" class="text-reset">Home</router-link>
+            <router-link to="/services" class="text-reset">Services</router-link>
+            <router-link to="/news" class="text-reset">News</router-link>
+            <router-link to="/portfolio" class="text-reset">Portfolio</router-link>
           </div>
 
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="links-heading fw-bold mb-4">
               Company
             </h6>
-            <a href="#!" class="text-reset">About Us</a>
-            <a href="#!" class="text-reset">Production Plant</a>
-            <a href="#!" class="text-reset">Environment</a>
-            <a href="#!" class="text-reset">Technology</a>
+            <router-link to="/about" class="text-reset">About Us</router-link>
+            <router-link to="/production-plant" class="text-reset">Production Plant</router-link>
+            <router-link to="/environment" class="text-reset">Environment</router-link>
+            <router-link to="/technology" class="text-reset">Technology</router-link>
           </div>
 
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -121,11 +121,13 @@ a.text-reset::after{
   opacity: .5;
 }
 
+a.router-link-active,
 a.text-reset:hover{
   padding-left: 14px;
   font-weight: 700;
 }
 
+a.router-link-active::after,
 a.text-reset:hover::after{
   transform: scale(1) translateY(-50%);
   transform-origin: left;

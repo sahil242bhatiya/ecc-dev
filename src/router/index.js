@@ -48,4 +48,12 @@ const router = createRouter({
     routes
 })
 
+router.beforeEach((to, from) => {
+    scroll(0, 0)
+})
+
+router.afterEach((to, from) => {
+    scroll(0, 0);
+})
+
 export default router
