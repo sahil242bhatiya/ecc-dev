@@ -54,6 +54,16 @@ router.beforeEach((to, from) => {
 
 router.afterEach((to, from) => {
     scroll(0, 0);
+    const viewportHeight = document.documentElement.clientHeight;
+
+    const scrollIndicator = document.getElementById('scrollIndicator');
+
+    window.addEventListener('scroll', () => {
+        const scrollHeight = document.documentElement.scrollHeight;
+        const scrollPosition = window.pageYOffset;
+        const scrollPercentage = (scrollPosition / (scrollHeight - viewportHeight)) * 100;
+        scrollIndicator.style.width = scrollPercentage + '%';
+    } )
 })
 
 export default router
