@@ -72,7 +72,7 @@ export default {
 
 <style scoped>
 .container-fluid {
-  padding-bottom: 130px;
+  padding-bottom: 90px;
   padding-top: 110px;
 }
 footer{

@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style scoped>
+.row,
+.max-container{
+    min-height: 650px !important;
+}
 .container-fluid {
     background-size: cover;
     background-position: center;
