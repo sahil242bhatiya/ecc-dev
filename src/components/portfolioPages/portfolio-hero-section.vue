@@ -1,5 +1,5 @@
 <template>
-    <second-hero-section img-src="./assets/portfolio.jpg" text="Creating Space for Better Human Life"/>
+    <second-hero-section img-src="./assets/hero-images/portfolio.webp" text="Creating Space for Better Human Life"/>
 </template>
 
 <script>

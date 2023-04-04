@@ -1,5 +1,5 @@
 <template>
-    <second-hero-section img-src="./assets/contact.jpg" text="Let’s Collaborate with World-Class beauty Service"/>
+    <second-hero-section img-src="./assets/hero-images/contact.webp" text="Let’s Collaborate with World-Class beauty Service"/>
 </template>
 
 <script>

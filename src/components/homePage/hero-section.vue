@@ -1,5 +1,5 @@
 <template>
-    <main-hero-section background-image="../../assets/hero-section-bg.jpg" text="Like Humans, each brand is beautiful in its own way" />
+    <main-hero-section background-image="./assets/hero-images/hero-section-bg.webp" text="Like Humans, each brand is beautiful in its own way" />
 </template>
 
 <script>

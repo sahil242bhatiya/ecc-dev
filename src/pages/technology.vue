@@ -1,14 +1,16 @@
 <template>
-    <main-hero-section background-image="./assets/technology.jpg"
-                       text="The beauty of technology is undeniable"/>
+    <div>
+        <technology-hero-section />
+    </div>
 </template>
 
 <script>
 import MainHeroSection from "../components/hero-sections/main-hero-section.vue";
+import TechnologyHeroSection from "../components/technologyPage/technology-hero-section.vue";
 
 export default {
     name: "technology",
-    components: {MainHeroSection}
+    components: {TechnologyHeroSection, MainHeroSection}
 }
 </script>
 

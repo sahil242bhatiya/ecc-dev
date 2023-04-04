@@ -1,5 +1,5 @@
 <template>
-    <second-hero-section img-src="./assets/news.jpg" text="Facts and gossip from the beauty dimension"/>
+    <second-hero-section img-src="./assets/hero-images/news.webp" text="Facts and gossip from the beauty dimension"/>
 </template>
 
 <script>

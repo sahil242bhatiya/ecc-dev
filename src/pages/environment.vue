@@ -1,14 +1,16 @@
 <template>
-    <main-hero-section background-image="./assets/environment.jpg"
-                       text="Taking action towards a better tomorrow for humanity"/>
+    <div>
+        <environment-hero-section />
+    </div>
 </template>
 
 <script>
 import MainHeroSection from "../components/hero-sections/main-hero-section.vue";
+import EnvironmentHeroSection from "../components/environmentPage/environment-hero-section.vue";
 
 export default {
     name: "environment",
-    components: {MainHeroSection}
+    components: {EnvironmentHeroSection, MainHeroSection}
 }
 </script>
 
