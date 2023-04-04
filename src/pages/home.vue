@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <hero-section />
-    <our-service class="service" />
-    <beauty-section class="beauty" />
-    <about-section />
-    <about2-section class="about-2" />
-    <process-section class="process" />
-    <process-2-section />
-  </div>
+    <div>
+        <hero-section/>
+        <our-service class="service"/>
+        <beauty-section class="beauty"/>
+        <about-section/>
+        <about2-section class="about-2"/>
+        <process-section class="process"/>
+        <process-2-section/>
+    </div>
 </template>
 
 <script>
@@ -20,24 +20,30 @@ import Process2Section from "../components/homePage/process-2-section.vue";
 import About2Section from "../components/homePage/about-2-section.vue";
 
 export default {
-  name: "home",
-  components: {About2Section, Process2Section, ProcessSection, AboutSection, BeautySection, OurService, HeroSection}
+    name: "home",
+    components: {About2Section, Process2Section, ProcessSection, AboutSection, BeautySection, OurService, HeroSection},
+    beforeCreate() {
+        document.title = "Ecc Dev | Home";
+    }
 }
 </script>
 
 <style scoped>
-.service{
-  margin-bottom: 263px;
-  margin-top: 224px;
+.service {
+    margin-bottom: 263px;
+    margin-top: 224px;
 }
-.beauty{
-  margin-bottom: 351px;
+
+.beauty {
+    margin-bottom: 351px;
 }
-.process{
-  margin-bottom: 185px;
+
+.process {
+    margin-bottom: 185px;
 }
-.about-2{
-  margin-bottom: 185px;
-  margin-top: 150px;
+
+.about-2 {
+    margin-bottom: 185px;
+    margin-top: 150px;
 }
 </style>

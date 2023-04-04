@@ -9,7 +9,10 @@ import NewsHeroSection from "../components/newsPage/news-hero-section.vue";
 
 export default {
     name: "news",
-    components: {NewsHeroSection}
+    components: {NewsHeroSection},
+    beforeCreate() {
+        document.title = "Ecc Dev | News";
+    }
 }
 </script>
 

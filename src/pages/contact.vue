@@ -9,7 +9,10 @@ import ContactHeroSection from "../components/contactPage/contact-hero-section.v
 
 export default {
     name: "contact",
-    components: {ContactHeroSection}
+    components: {ContactHeroSection},
+    beforeCreate() {
+        document.title = "Ecc Dev | Contact";
+    }
 }
 </script>
 

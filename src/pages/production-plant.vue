@@ -10,7 +10,10 @@ import ProductionPlantHeroSection from "../components/production-plantPage/produ
 
 export default {
     name: "production-plant",
-    components: {ProductionPlantHeroSection, MainHeroSection}
+    components: {ProductionPlantHeroSection, MainHeroSection},
+    beforeCreate() {
+        document.title = "Ecc Dev | Production Plant";
+    }
 }
 </script>
 

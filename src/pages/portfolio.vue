@@ -9,7 +9,10 @@ import PortfolioHeroSection from "../components/portfolioPages/portfolio-hero-se
 
 export default {
     name: "portfolio",
-    components: {PortfolioHeroSection}
+    components: {PortfolioHeroSection},
+    beforeCreate() {
+        document.title = "Ecc Dev | Portfolio";
+    }
 }
 </script>
 

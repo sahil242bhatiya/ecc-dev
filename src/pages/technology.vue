@@ -10,7 +10,10 @@ import TechnologyHeroSection from "../components/technologyPage/technology-hero-
 
 export default {
     name: "technology",
-    components: {TechnologyHeroSection, MainHeroSection}
+    components: {TechnologyHeroSection, MainHeroSection},
+    beforeCreate() {
+        document.title = "Ecc Dev | Technology";
+    }
 }
 </script>
 

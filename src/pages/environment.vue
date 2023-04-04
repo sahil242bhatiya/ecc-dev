@@ -10,7 +10,10 @@ import EnvironmentHeroSection from "../components/environmentPage/environment-he
 
 export default {
     name: "environment",
-    components: {EnvironmentHeroSection, MainHeroSection}
+    components: {EnvironmentHeroSection, MainHeroSection},
+    beforeCreate() {
+        document.title = "Ecc Dev | Environment";
+    }
 }
 </script>
 
